@@ -1,12 +1,16 @@
 """
-Fibonacci series is the sequence where each number is the sum of the previous two numbers of the sequence
-Fibonacci sequence will be stopped after n execution which is provided in the user input
+Fibonacci series is the sequence where each number is the sum of the previous
+two numbers of the sequence
+Fibonacci sequence will be stopped after n execution which is provided in the
+user input
 Results will be printed in console
 """
 
 
 def main():
-    execution_number = int(input('Enter the fibonacci sequence execution number: '))
+    execution_number = int(
+        input('Enter the fibonacci sequence execution number: ')
+    )
 
     count = 1
     first_number = 0

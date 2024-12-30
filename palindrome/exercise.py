@@ -30,9 +30,11 @@ def main():
             break
 
         if should_break(input_index=input_index, current_index=index):
-            # Loop is in the input_check middle, break loop and print positive result
+            # Loop is in the input_check middle break loop
+            # and print positive result
             print(f'{input_check_palindrome} is palindrome: {True}')
             break
 
-        # Decrease variable that is used for input_check access by index from reverse
+        # Decrease variable that is used for input_check access by index
+        # from reverse
         reverse -= 1
